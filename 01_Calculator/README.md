@@ -40,6 +40,11 @@ $ npx arithmetic-calculator
 Your value is 15
 ```
 
+**GitHub Repository:** [Arithmetic Calculator](https://github.com/HasnainHSA/TypeScript-Mastery-Projects/tree/main/01_Calculator)
+
+**NPM Package:** [Arithmetic Calculator](https://www.npmjs.com/package/arithmetic-calculator)
+
+
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.

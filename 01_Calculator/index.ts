@@ -1,4 +1,4 @@
-#! /usr/bin/env node 
+#! /usr/bin/env node
 
 // Prompt user for input
 import inquirer from "inquirer";
@@ -23,15 +23,15 @@ const userinput = await inquirer.prompt([{
 console.log(userinput)
 
 // Perform arithmetic operation based on user input
-if(userinput.operator === "Addition"){
+if (userinput.operator === "Addition") {
     console.log(`Your value is ${userinput.FirstOperand + userinput.SecondOperand}`)
 }
-else if(userinput.operator === "Subtraction"){
+else if (userinput.operator === "Subtraction") {
     console.log(`Your value is ${userinput.FirstOperand - userinput.SecondOperand}`)
 }
-else if(userinput.operator === "Multiplication"){
+else if (userinput.operator === "Multiplication") {
     console.log(`Your value is ${userinput.FirstOperand * userinput.SecondOperand}`)
 }
-else if(userinput.operator === "Division"){
+else if (userinput.operator === "Division") {
     console.log(`Your value is ${userinput.FirstOperand / userinput.SecondOperand}`)
 }
